@@ -1,0 +1,19 @@
+﻿<Application
+    x:Class="EffectExample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="clr-namespace:EffectExample"
+    xmlns:test="clr-namespace:EffectExample.Infrastructure"
+    StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Themes/Generic.xaml" />
+                <ResourceDictionary Source="Themes/ListBox.xaml" />
+                <ResourceDictionary Source="CustomShaowEffect/EffectChange/EffectChangeBox.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/SkinDefault.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/HandyControl;component/Themes/Theme.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>

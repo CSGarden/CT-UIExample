@@ -1,0 +1,38 @@
+﻿<demo:DemoPage
+    x:Class="EffectExample.Pages.SimpleBlurPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:demo="clr-namespace:EffectExample.Infrastructure"
+    xmlns:hc="https://handyorg.github.io/handycontrol"
+    xmlns:local="clr-namespace:EffectExample.Pages"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    d:DesignHeight="450"
+    d:DesignWidth="800"
+    Background="White"
+    mc:Ignorable="d">
+
+    <Grid>
+        <StackPanel
+            Margin="20"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Orientation="Vertical">
+            <Border
+                Width="200"
+                Height="200"
+                Background="#99494a66"
+                CornerRadius="18">
+                <Border.Effect>
+                    <BlurEffect KernelType="Box" Radius="{Binding ElementName=blurSlider, Path=Value}" />
+                </Border.Effect>
+            </Border>
+            <hc:PreviewSlider
+                x:Name="blurSlider"
+                Margin="0,30"
+                Maximum="100"
+                Minimum="0"
+                Value="30" />
+        </StackPanel>
+    </Grid>
+</demo:DemoPage>
