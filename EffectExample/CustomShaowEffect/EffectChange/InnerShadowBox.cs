@@ -48,6 +48,7 @@ namespace EffectExample.CustomShaowEffect.EffectChange
     public class InnerShadowBox : ContentControl {
         public InnerShadowBox() {
             DefaultStyleKey = typeof(InnerShadowBox);
+            Style = App.Current.FindResource(DefaultStyleKey) as Style;
         }
         public CornerRadius CornerRadius {
             get { return (CornerRadius)GetValue(CornerRadiusProperty); }

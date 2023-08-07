@@ -2,6 +2,10 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="clr-namespace:EffectExample.Infrastructure">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/EffectExample;component/CustomShaowEffect/EffectChange/InnerShadowBox.xaml" />
+        <ResourceDictionary Source="/EffectExample;component/CustomShaowEffect/EffectChange/EffectChangeBox.xaml" />
+    </ResourceDictionary.MergedDictionaries>
     <Style TargetType="{x:Type local:DemoPage}">
         <Setter Property="Background" Value="{DynamicResource ListBox.Disabled.Background}" />
         <Setter Property="Padding" Value="20" />

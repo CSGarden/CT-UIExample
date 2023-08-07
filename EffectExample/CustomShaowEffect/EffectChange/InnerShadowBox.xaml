@@ -3,7 +3,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:common="clr-namespace:EffectExample.CustomShaowEffect.Common"
     xmlns:controls="clr-namespace:EffectExample.CustomShaowEffect.EffectChange">
-    <Style TargetType="{x:Type controls:EffectChangeBox}">
+    <Style TargetType="{x:Type controls:InnerShadowBox}">
         <Setter Property="HorizontalContentAlignment" Value="Stretch" />
         <Setter Property="VerticalContentAlignment" Value="Stretch" />
         <Setter Property="Template">

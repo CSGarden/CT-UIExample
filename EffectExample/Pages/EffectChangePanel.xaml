@@ -7,8 +7,8 @@
     xmlns:demo="clr-namespace:EffectExample.Infrastructure"
     xmlns:local="clr-namespace:EffectExample.Pages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    d:DesignHeight="450"
-    d:DesignWidth="800"
+    d:DesignHeight="550"
+    d:DesignWidth="1000"
     mc:Ignorable="d">
 
     <demo:DemoPage.Resources>
@@ -354,7 +354,8 @@
         <Grid
             Width="400"
             Height="400"
-            HorizontalAlignment="Center">
+            Margin="0,0,100,0"
+            HorizontalAlignment="Right">
             <controls:EffectChangeBox
                 Width="{Binding Value, ElementName=SizeSlider}"
                 Height="{Binding Value, ElementName=SizeSlider}"
@@ -364,14 +365,14 @@
                 Intensity="{Binding Value, ElementName=IntensitySlider}"
                 LightSource="{Binding SelectedItem.Tag, ElementName=LightSourceListBox}"
                 Shape="{Binding SelectedItem.Tag, ElementName=ShapeListBox}"
-                Color="#554466" />
+                Color="#778899" />
         </Grid>
         <controls:EffectChangeBox
             Grid.Column="1"
             Width="370"
             Height="370"
             Margin="20,0"
-            HorizontalAlignment="Left"
+            HorizontalAlignment="Center"
             Blur="{Binding Value, ElementName=BlurSlider}"
             CornerRadius="50"
             Distance="{Binding Value, ElementName=DistanceSlider}"
