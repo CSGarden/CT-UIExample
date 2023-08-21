@@ -1,9 +1,10 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EffectExample", "EffectExample\EffectExample.csproj", "{C22506E1-CFDD-4F48-AE50-0D49ECB59B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeColorSwitchingDemo", "ThemeColorSwitchingDemo\ThemeColorSwitchingDemo.csproj", "{59BCDDAA-3342-4611-B697-49E66FF84ACD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +16,10 @@ Global
 		{C22506E1-CFDD-4F48-AE50-0D49ECB59B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C22506E1-CFDD-4F48-AE50-0D49ECB59B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C22506E1-CFDD-4F48-AE50-0D49ECB59B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59BCDDAA-3342-4611-B697-49E66FF84ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59BCDDAA-3342-4611-B697-49E66FF84ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59BCDDAA-3342-4611-B697-49E66FF84ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59BCDDAA-3342-4611-B697-49E66FF84ACD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
